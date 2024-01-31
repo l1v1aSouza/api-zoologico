@@ -1,9 +1,9 @@
 import {Animal} from "./Animal";
 
 class Ave extends Animal{
-    private envergadura: string;
+    private envergadura: number;
 
-    constructor(_envergadura:string,
+    constructor(_envergadura:number,
                 _nome:string,
                 _idade:number,
                 _genero:string){
@@ -11,11 +11,11 @@ class Ave extends Animal{
         this.envergadura = _envergadura;
     }
 
-public getEnvergadura(envergadura: string) {
+public getEnvergadura(envergadura: number) {
     return this.envergadura;
 }
         
-public setEnvergadura(_envergadura: string): void{
+public setEnvergadura(_envergadura: number): void{
     this.envergadura = _envergadura;
 }
         
