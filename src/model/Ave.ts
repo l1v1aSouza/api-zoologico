@@ -1,6 +1,10 @@
 import { Animal } from "./Animal";
 
+/** 
+ * Representa as aves, uma das especies no zoologico. 
+ */ 
 export class Ave extends Animal {
+
     /**
      * Representa a envergadura da ave.
     */

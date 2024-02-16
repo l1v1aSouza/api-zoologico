@@ -1,6 +1,10 @@
 import { Habitat } from "./Habitat";
 
+/** 
+ * Representa uma atração no zoológico, é oque vc pode fazer em um zoologico.
+ */ 
 export class Atracao {
+
     /**
      * Representa o nome da atração.
     */

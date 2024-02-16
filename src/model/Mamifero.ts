@@ -1,6 +1,10 @@
 import { Animal } from "./Animal";
 
+/** 
+ * Representa os mamiferos, uma das especies no zoologico. 
+ */ 
 export class Mamifero extends Animal {
+
     /**
      * Representa a raça do mamífero.
     */

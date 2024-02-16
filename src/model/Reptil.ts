@@ -1,6 +1,10 @@
 import { Animal } from "./Animal";
 
+/** 
+ * Representa os repteis, uma das especies do zoologico. 
+ */ 
 export class Reptil extends Animal {
+
     /**
      * Representa o tipo de escamas do réptil.
     */

@@ -1,6 +1,10 @@
 import { Atracao } from "./Atracao";
 
+/** 
+ * Representa um zoológico, onde os animais vivem. 
+ */ 
 export class Zoologico {
+
     /**
      * Representa o nome do zoológico.
     */
